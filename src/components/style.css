@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/* ///////////////////////////////////////////////////// navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8ab6b5;
+    box-shadow: 10px 5px 5px red;
+    width: 100vw;
+}
+.logo h1{
+    color: rgb(17, 0, 255);
+}
+ul li{
+    display: inline;
+}
+.menu a{
+text-decoration: none;
+padding-right: 76px;
+font-size: 17px;
+font-weight: bold;
+color: #4c00ff;
+}
+.menu a:hover{
+    border-bottom: 1px solid black;
+    border-radius: inherit;
+}
+
+/* //////////////////////////////////// seach button  */
+.wrap{
+    border: 2px slid rgb(255, 0, 0);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.search{
+    position: relative;
+    display: flex;
+}
+.searchTerm{
+    height: 30px;
+    width:283px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #4c00ff;
+}
+.searchbutton:hover{
+    background: rgba(108, 92, 231,1.0);
+}
+.searchbutton{
+    width: 75px;
+    font-weight: bold;
+    font-size: 14px;
+    color:  white;
+    background: #000;
+
+}
+/* ///////////////////////////////////////////////////// main  */
+.container{
+    /* border: 2px solid black; */
+    background: #dfe6e9;
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+}
+.main{
+    /* border: 2px solid black; */
+    display: flex;
+} 
+.indication img{
+        max-width: 20px;
+}
+.weather-icon{
+    /* border: 2px solid black; */
+    margin-left: 20px;
+}
+.weather-icon img{
+    max-width: 165px;
+    max-height: 163px;
+}
+.indication{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+}
+.type img{  
+    max-width: 64px;
+    max-height: 52px;
+    margin-top: 33px;
+}
+.type h1{
+  float: right;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.type{
+    width: 229px;
+}
+.type h1{
+    padding-right: 55px;
+    padding-top: 43px;
+}
+.type p{  
+    padding-bottom: 22px;
+    padding-left: 113px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: green;
+}
+.wind-text{
+    margin-right: 4px;
+}
+.maxtemp{
+    margin-right: -10px;
+}
+.mintemp{
+    color: red;
+    margin-left: -11px;
+}
+.aalo{
+    margin-left: -9px;
+}
+.wmood{
+    margin-left:45px;
+    margin-top: 9px;
+}
+.temp{
+    margin-left: 26px;
+}
+
+/* /////////////////////////////////////// time and date  */
+.name{
+    text-align: center;
+    height: 30px;
+    background: #74b9ff;
+    padding: 6px 11px 0px 11px;
+}
+.date{
+    float: left;
+}
+.time{
+    float: right;
+}
